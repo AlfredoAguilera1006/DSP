@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Istok Web', sans-serif;
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #edecf3;
+    font-size: 40px;
+}
+
+
+.contenedor-inicio p {
+    color: #0400f3;
+    font-style: italic;
+}
+
+h2 {
+    font-family: 'Puritan', sans-serif;
+    text-align: center;
+    color: #0400f3;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Istok Web', sans-serif;
+    color: #0400f3;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #444444;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.item:hover {
+    color: #0616f5;
+}
+
+.item {
+    text-decoration: none;
+    color: #efedf1;
+}
+
+section {
+    width: 100%;
+    min-height: 450px;
+    padding: 70px 80px;
+}
+
+#inicio {
+    height: calc(100vh - 70px);
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+.contenedor-inicio {
+    width: 100%;
+    height: 100%;
+    background-color: #7f7e80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#acercade {
+    background-color: #686769;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+}
+
+.servicios {
+    flex: 1;
+    min-height: 350px;
+    text-align: center;
+    background-color: #f5f4f7;
+}
+
+.servicios {
+    min-height: 350px;
+    flex: 1;
+    text-align: center;
+}
+
+.imagen-acercade {
+    min-height: 350px;
+    flex: 1;
+}
+
+.info-acercade {
+    min-height: 350px;
+    flex: 2;
+}
+
+.mapa {
+    min-height: 50px;
+    flex: 2;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.leer-más {
+    display: inline-block;
+    background-color: #717174;
+    padding: 6px 25px;
+    text-decoration: none;
+    color: #101011;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.leer-más:hover {
+    background-color: #4682f0;
+    transition: 0.9s;
+}
+
+.contenedor .imagen-acercade p {
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+
+footer i {
+    color: #f2f2f5;
+    font-size: 30px;
+}
+
+footer a:hover {
+
+    transform: translateY(-8px);
+    transition: 0.3s;
+
+}
+
+@media (max-width:678px) {
+    .contenedor {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 40px 15px;
+    }
+
+    .contenedor-inicio {
+        text-align: center;
+    }
+}
